@@ -1,8 +1,4 @@
----
-title: FastAPI-Stawberry GraphQL CRUD
----
-
-# FastAPI
+# FastAPI-Starwberry GraphQL CRUD
 
 Strawberry provides support for [FastAPI](https://fastapi.tiangolo.com/) with a
 custom
@@ -298,3 +294,12 @@ class MyGraphQLRouter(GraphQLRouter):
     def encode_json(self, data: GraphQLHTTPResponse) -> str:
         return json.dumps(data, indent=2)
 ```
+
+## Authors
+
+- [@MyFaduGame](https://www.github.com/myfadugame)
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
